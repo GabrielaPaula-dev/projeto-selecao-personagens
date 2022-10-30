@@ -1,0 +1,52 @@
+:root {
+    --cor-vermelha-principal: #9d404c;
+    --cor-vermelha-fraca: #d6022258;
+    --cor-marrom-fraco: #ebd5d2;
+}
+@keyframes c-glowing-red {
+    0% { 
+        box-shadow: 0 0 5px var(--cor-marrom-fraco),
+            0 0 5px var(--cor-marrom-fraco),
+            0 0 15px var(--cor-marrom-fraco),
+            0 0 20px var(--cor-vermelha-principal),
+            0 0 10px var(--cor-vermelha-principal),
+            0 0 10px var(--cor-vermelha-principal),
+            0 0 10px var(--cor-vermelha-principal),
+            0 0 10px var(--cor-vermelha-principal);
+    }
+
+    to {
+        box-shadow: 0 0 2.5px var(--cor-marrom-fraco),
+            0 0 2.5px var(--cor-marrom-fraco),
+            0 0 7.5px var(--cor-marrom-fraco),
+            0 0 10px var(--cor-vermelha-principal),
+            0 0 5px var(--cor-vermelha-principal),
+            0 0 5px var(--cor-vermelha-principal),
+            0 0 5px var(--cor-vermelha-principal),
+            0 0 2px var(--cor-vermelha-principal);
+    }
+}
+
+@keyframes text-glowing-red {
+    0% {
+        text-shadow: 0 0 1px var(--cor-marrom-fraco),
+            0 0 1px var(--cor-marrom-fraco),
+            0 0 1px var(--cor-marrom-fraco),
+            0 0 1px var(--cor-vermelha-fraca),
+            0 0 5px var(--cor-vermelha-fraca),
+            0 0 2px var(--cor-vermelha-fraca),
+            0 0 10px var(--cor-vermelha-fraca),
+            0 0 10px var(--cor-vermelha-fraca)
+    }
+
+    to {
+        text-shadow: 0 0 .5px var(--cor-marrom-fraco),
+            0 0 .5px var(--cor-marrom-fraco),
+            0 0 .5px var(--cor-marrom-fraco),
+            0 0 .5px var(--cor-vermelha-fraca),
+            0 0 5px var(--cor-vermelha-fraca),
+            0 0 .5px var(--cor-vermelha-fraca),
+            0 0 5px var(--cor-vermelha-fraca),
+            0 0 2px var(--cor-vermelha-fraca)
+    }
+}
