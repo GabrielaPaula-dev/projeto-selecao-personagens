@@ -28,7 +28,7 @@
         font-size: 30px;
     }
 }
-@media (max-width:760px) {
+@media (max-width:770px) {
     .lista-de-personagens{
         width: 280px;
         height: 300px;
@@ -55,7 +55,10 @@
         padding-top: 100px;
     } 
 }
-@media (max-width:600px) {
+@media (max-width:430px) {
+    main{
+        padding-top: 50px;
+    } 
     .personagem.selecionado{
         border: 2px solid rgb(157, 64, 76);
         border-radius: 7px;
@@ -73,8 +76,11 @@
         top: -10px;
         letter-spacing: 0;
     }
+    .selecao-de-personagens {
+        justify-content: space-around;
+    }
     .selecao-de-personagens .personagem-grande{
-        width: 130px;
+        width: 35%;
     }
     .personagem-grande img{
         height: 230px;
@@ -84,58 +90,16 @@
         margin-top: 0;
     }
     .lista-de-personagens{
-        width: 120px;
-        max-height: 210px;
-        overflow-y: auto;
-        gap: 2px;
+        height: 100px;
+        gap: 10px;
+        bottom: 20%;
     }
-    ::-webkit-scrollbar{
-        width:3px;
-        background-color:rgb(157, 64, 76) ;
-        border-radius: 10px;
-    }
+
     .personagem{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     body{
         background-size: cover;
     }
-}
-@media (max-width:360px) {
-    ::-webkit-scrollbar{
-        width: 0;
-    } 
-    span{
-        font-size: 7px;
-    }
-}
-@media (max-width:310px) {
-    h1{
-        font-size:15px;
-    }
-    h2{
-        font-size: 13px;
-    }
-    .lista-de-personagens{
-        width: 90px;
-        margin-top: -10px;
-    }
-    .selecao-de-personagens .personagem-grande{
-        width: 100px;
-    }
-    .personagem-grande img{
-        height: 200px;
-    }
-    .selecao-de-personagens .personagem-grande .nome{
-        height: 10px;
-        border-radius: 2px;
-    }
-    .personagem{
-        width: 30px;
-        height: 30px;
-    }
-    span{
-        font-size: 8px;
-    } 
 }
